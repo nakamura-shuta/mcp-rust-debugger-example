@@ -1,0 +1,5 @@
+node_modules/
+dist/
+example/target/
+*.log
+.DS_Store
