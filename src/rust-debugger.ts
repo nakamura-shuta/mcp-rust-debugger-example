@@ -68,7 +68,7 @@ export class RustDebugger extends EventEmitter {
         );
       }
 
-      this.codelldbProcess = spawn(codelldbPath, ['--port', '0'], {
+      this.codelldbProcess = spawn(codelldbPath, [], {
         stdio: ['pipe', 'pipe', 'pipe']
       });
 
